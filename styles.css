@@ -8,12 +8,18 @@ body {
     font-family: 'Klee One', cursive;
     font-weight: 600;
     text-align: center;
-    background: linear-gradient(to bottom right, #e5771d, #d9367f);
     min-height: 100vh;
 }
 
 h1, h2 {
     font-family: 'Poppins', sans-serif;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;    
 }
 
 .main-title {
